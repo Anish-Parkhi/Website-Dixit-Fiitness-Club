@@ -1,0 +1,162 @@
+body {
+  background-image: url(backimage.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.left {
+  display: inline-block;
+  width: 20%;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+}
+.Mid {
+    
+  display: flex;
+  margin: 20px auto;
+  margin-left: 437px;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  margin-top: 30px;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 16px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: yellow;
+}
+.left img {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left div {
+  color: white;
+  text-align: center;
+}
+.btn {
+  margin: 0px 0px;
+  color: white;
+  background-color: black;
+  padding: 10px 30px;
+  margin-left: 20px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.btn:hover {
+  background-color: grey;
+}
+.container {
+  margin: 66px 80px;
+  padding: 20px;
+  width: 28%;
+  border-radius: 42px;
+  display: inline-block;
+}
+.Quote{
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 73px;
+  margin: 100px;
+  padding: 3px;
+  font-size: 30px;
+  color: rgb(218, 36, 36);
+}
+
+.icon1{
+  
+  display: inline-block;
+  margin-top: 382px;
+  margin-left: 560px;
+  padding: 30px;
+  display: inline-block;
+}
+.icon2{
+  
+  display: inline-block;
+  margin: 20px 558px;
+  padding: 30px;
+  display: inline-block;
+  position: relative;
+  left: 282px;
+  top: -107px;
+}
+.icon1 img{
+  height: 150px;
+}
+.icon2 img{
+  height: 150px;
+  position: relative;
+  left: -79px;
+  top: -128px
+}
+.seperate{
+  display: inline-block;
+  position: absolute;
+  left: 578px;
+  top: 645px;
+  width: 400px;
+}
+.seperate p{
+  font-size: 19px;
+  color: #801008e0;
+  margin-top: 94px;
+}
+.info{
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  width: 400px;
+  height: 773px;
+  opacity: 10;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 4px;
+  padding-left: 21px;
+}
+.t-heading{
+  color: #FF0000;
+}
+.training{
+  color: #06FF00;
+}
+/* .backimg1{
+  display: inline-block;
+  background-image: url(backimage1.jpg);
+  width: 1119px; 
+}
+*/
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+
